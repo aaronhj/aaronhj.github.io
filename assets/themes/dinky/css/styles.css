@@ -82,7 +82,7 @@ a {
 }
 
 a:hover {
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 
 a small {
@@ -240,7 +240,7 @@ h1.header, a.header, a.name, header a{
 }
 
 a.header {
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 
 a.name {
@@ -275,7 +275,11 @@ header li {
 	box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
 	
 }
-
+header li a {
+	display:block;
+	width: 147px;
+	height: 29px;
+}
 header li:hover {
 	background: #C3001D;
 	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
