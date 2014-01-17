@@ -233,6 +233,9 @@ h1.header {
 	margin-top: 70px;
 }
 
+li.contact {
+	text-align:center;
+}
 
 h1.header, a.header, a.name, header a{
 	color: #fff;
